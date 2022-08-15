@@ -2,7 +2,7 @@
 The smallest fully functional (with dGPU) hackintosh
 
 
-My configuration
+# My configuration**
 
 CPU: intel Core i9 10850K
 GPU: AMD Radeon Pro WX 4100 dGPU + UHD630 iGPU
