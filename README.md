@@ -18,7 +18,7 @@ The smallest fully functional (with dGPU) hackintosh
 |Feature|Status|
 |-------|------|
 |Sleep/Wake|ok|
-|iGPU&dGPU acceleration|ok|
+|iGPU & dGPU acceleration|ok|
 |USB|ok|
 |LAN|ok|
 |WLAN|ok|
@@ -28,11 +28,11 @@ The smallest fully functional (with dGPU) hackintosh
 |iMessage/facetime|ok|
 |Sound|ok|
 |HDMI/DP audio|ok|
-|DRM|requires switching GPU with a command|
+|DRM|requires switching GPU with a terminal command|
 
 ## What is different?
 
-- This hack is the smallest fully functional hack I was able to build, including a dGPU for DRM.
+- This hack is the smallest fully functional hack I was able to build, including a dGPU for DRM. It is also one of the most powerful CPU you can hack on with the a supported iGPU.
 - No kext needed for USB mapping as it only has 14 ports and doesn't exceed the macOS limitation. Only one dsdt patch was needed to enable the M.2 USB port.
-- For efficiency, I combined all ACPI patches into a single SSDT. ACPI patching adds all the devices (including cosmetic ones) seen on a real iMac20 but avoids all cosmetic renaming.
+- For efficiency, I combined all ACPI patches into a single SSDT. ACPI patching adds all the devices (including cosmetic ones) seen on a real iMac20 but avoids cosmetic renaming.
 - Recompiled all the kexts with highest level of optimization and opencore uses the least possible amount of patches and injections. The entire EFI is <2.8MB.
