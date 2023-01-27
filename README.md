@@ -37,3 +37,4 @@ The smallest fully functional (with dGPU) hackintosh
 - For efficiency, I combined all ACPI patches into a single SSDT. ACPI patching adds all the devices (including cosmetic ones) seen on a real iMac20 but avoids cosmetic renaming.
 - Recompiled all the kexts with highest level of Xcode optimization and opencore uses the least possible amount of patches and injections. The entire EFI is <2.8MB.
 - By default, Boot Chime-enabled and OC Picker-disabled while hotkeys are enabled to reproduce real mac behavior. I even changed the BIOS logo to Apple so through the entire boot process the hack looks and feels like a real mac.
+![Screenshot 2023-01-27 at 14 05 47](https://user-images.githubusercontent.com/15803952/215213285-a7248619-a328-4958-9600-b21956d4806d.png)
