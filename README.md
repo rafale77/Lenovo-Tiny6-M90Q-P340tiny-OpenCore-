@@ -8,7 +8,7 @@ The smallest fully functional (with dGPU) hackintosh
 - GPU: AMD Radeon Pro WX 4100 dGPU + UHD630 iGPU
 - Memory: 64GB. 2x32 Hynix DDR4 3200 @ 2933MHz
 - Storage: 2x Hynix Gold P31 2TB
-- Wireless: Apple BCM943602CS with adapter and 2antenna in front bezel and tiny rear antenna.
+- Wireless: Apple BCM943602CS with adapter and 2 antenna in front bezel and tiny rear antenna.
 - Power Supply: 230W
 - BIOS: M2WKT59
 - SMBIOS: iMac20,2
